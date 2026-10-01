@@ -7,7 +7,12 @@ authors = [
     { name = "Matthieu Baucher", email = "ttbaucher@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "scipy>=1.17.1",
+]
 
 [project.scripts]
 tp2-analyse = "tp2_analyse:main"
